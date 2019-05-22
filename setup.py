@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 classifiers = [
-    'Topic :: Gnome :: Linux :: Ubuntu :: Config :: Json',
+    'Topic :: Desktop Environment :: Gnome',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
     'License :: OSI Approved :: MIT License',
