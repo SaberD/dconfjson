@@ -16,7 +16,7 @@ dconfjson.json_writer("FILENAME.conf", dest="FILENAME.json")
 dconfjson.conf_writer("FILENAME.json", dest="FILENAME_2.conf")
 ```
 
-To load new dconf parameters into gnome use:
+To load new dconf parameters into gnome use (bash):
 
 ```bash
 dconf load / < FILENAME_2.conf
