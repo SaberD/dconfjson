@@ -13,7 +13,7 @@ Example usage to convert conf and store as json file and take json and store as 
 import dconfjson
 
 dconfjson.json_writer("FILENAME.conf", dest="FILENAME.json")
-dconfjson.conf_writer("FILENAME.json", dest="FILENAME_2.conf")
+dconfjson.dconf_writer("FILENAME.json", dest="FILENAME_2.conf")
 ```
 
 To load new dconf parameters into gnome use (bash):

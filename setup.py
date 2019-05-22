@@ -12,7 +12,7 @@ classifiers = [
 
 setuptools.setup(
     name="dconfjson",
-    version="0.1.0",
+    version="0.2.0",
     python_requires='>=3.*',
     author="saberd",
     author_email="mail@saberd.com",

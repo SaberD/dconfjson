@@ -27,7 +27,7 @@ def json_dconf(data):
         conf = conf[1:]
     return conf 
 
-def conf_writer(json_path, dest="output.conf"):
+def dconf_writer(json_path, dest="output.conf"):
     """opens json file at path, converts to conf and writes to file at dest
     """
     with open(json_path) as fin:
