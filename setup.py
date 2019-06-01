@@ -12,7 +12,8 @@ classifiers = [
 
 setuptools.setup(
     name="dconfjson",
-    version="0.2.2",
+    version="0.2.3",
+    python_requires='>=3.*',
     author="saberd",
     author_email="mail@saberd.com",
     description="Convert gnome settings between binary conf files and json",
